@@ -1,0 +1,41 @@
+*{
+  background-color: purple;
+  align-items: center;
+  margin: 0;
+}
+body{
+  text-align: center;
+  align-content: justify;
+}
+
+#tablero{
+  width: 300px;
+  height: 300px;
+  border: solid 1px ;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9 {
+
+ background-color: green;
+
+ width: 99px;
+ height: 99px;
+ border: solid 1px ;
+
+ 
+}
+p{
+   background-color: green;
+   font-size: 99px;
+   text-align: center;
+}
+#jugador{
+  margin-top: 50px;
+  border: solid 0.5px;
+  background-color: cyan;
+  font-family: Arial;
+  font-size: 50px;
+  text-align: left;
+}
