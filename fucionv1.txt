@@ -1,0 +1,21 @@
+
+function jugada(id,player,turno){
+
+        if (turnoActual.isPar=="true" ) {
+        
+            pintar(id, player);
+                turnoActual.isPar="false";
+            
+        }else{
+            pintar(id, player);
+                
+                turnoActual.isPar="true";
+   }
+
+   turnoActual.valor++;
+
+ console.log(document.getElementById(id).innerHTML);
+//   console.log(turnoActual.valor);
+   
+   
+}
